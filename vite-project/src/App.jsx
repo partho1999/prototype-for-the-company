@@ -13,19 +13,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Step 1</Link>
-            </li>
-            <li>
-              <Link to="/step2">Step 2</Link>
-            </li>
-            <li>
-              <Link to="/result">Result</Link>
-            </li>
-          </ul>
-        </nav> */}
 
         <Routes>
           <Route path="/step2" element={formData && <StepTwoForm dataFromStepOne={formData} onSubmit={setFormData} />}/>

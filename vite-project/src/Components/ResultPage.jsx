@@ -12,8 +12,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-// import faker from 'faker';
-// import html2pdf from 'html2pdf.js';
 import { useReactToPrint } from 'react-to-print';
 
 
